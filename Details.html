@@ -1,70 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Details</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #89f7fe, #66a6ff);
-            color: #333;
-            text-align: center;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Details</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      color: #333;
+      text-align: center;
+    }
 
-        .education-container {
-            background-color: #ffffffcc;
-            margin: 60px auto;
-            padding: 40px 30px;
-            max-width: 700px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
+    .education-container {
+      background-color: #ffffffcc;
+      margin: 60px auto;
+      padding: 40px 30px;
+      max-width: 700px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
 
-        h1 {
-            color: #6a11cb;
-            font-size: 42px;
-            margin-bottom: 20px;
-        }
+    h1 {
+      color: #6a11cb;
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
 
-        p {
-            font-size: 20px;
-            color: #444;
-            line-height: 1.8;
-        }
+    p {
+      font-size: 20px;
+      color: #444;
+      line-height: 1.8;
+    }
 
-        b {
-            color: #e74c3c;
-        }
+    b {
+      color: #e74c3c;
+    }
 
-        u {
-            color: #2c3e50;
-            text-decoration: none;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 2px;
-        }
-    </style>
+    u {
+      color: #2c3e50;
+      text-decoration: none;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 2px;
+    }
+
+    .location-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 24px;
+      text-decoration: none;
+      color: #e74c3c;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .location-link:hover {
+      transform: scale(1.2);
+      color: #c0392b;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="education-container">
-        <h1>Details</h1>
-        <p>
-            <b>Contact Us</b>
-            <br />
-            <b>Phone</b>
-            6302457727/7416144897
-            <br />
-            <b>Email</b>
-            ge07hyd@gmail.com
-            <br />
-            <b>Address</b>
-            Plot no.C-31, road no. 4
-            I.D.A. Kattedan. Hyderabad-500077
-        </p>
-    </div>
+  <div class="education-container">
+    <h1>Details</h1>
+    <p>
+      <b>Contact Us</b><br />
+      <b>Phone:</b> 6302457727 / 7416144897<br />
+      <b>Email:</b> ge07hyd@gmail.com<br />
+      <b>Address:</b> Plot no.C-31, road no. 4<br />
+      I.D.A. Kattedan. Hyderabad - 500077
+      <br />
+      <a class="location-link" href="https://www.google.com/maps/place/Ganapati+enterprise/@17.3169904,78.4336504,17z/data=!4m15!1m8!3m7!1s0x3bcbbdf6a138f18b:0x3214ab95ddb0f176!2sGanapati+enterprise!8m2!3d17.3170151!4d78.4335977!10e5!16s%2Fg%2F11q7zd047t!3m5!1s0x3bcbbdf6a138f18b:0x3214ab95ddb0f176!8m2!3d17.3170151!4d78.4335977!16s%2Fg%2F11q7zd047t?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" title="View on Google Maps">
+        📍
+      </a>
+    </p>
+  </div>
 
 </body>
 </html>
